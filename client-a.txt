@@ -1,4 +1,20 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+START
+Generate a random whole integer between 1 and 10, and assign to RANDNUM variable
+PRINT "Guess a number betwen 1 and 10."
+Get user's guess from keyboard input, and assign to GUESS variable
+//compare user guess to actual random number and check if its between 1 and 10, if not print TRY AGAIN message
+IF GUESS != RANDNUM && guess <= 10
+	PRINT "TRY AGAIN"
+//congratulate user if guess is exactly correct and exit program
+    ELSEIF GUESS == RANDNUM 
+	PRINT "YOU DID IT!"
+	end
+//otherwise, ask user to try again
+        ELSE PRINT "Invalid number, try again"
+
+
+
 

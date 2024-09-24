@@ -1,4 +1,23 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+**Task:** You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+//initialize product count integer variable
+PRODUCT_COUNT = 0
+BOOLEAN SCAN_INPUT = 0
+//show START_CASE prompt
+PRINT "START CASE? Y/N"
+IF INPUT = Y
+    set boolean START_CASE = 1
+    else end
+
+WHILE PRODUCT_COUNT < 50 && START_CASE = 1 && SCANNER_INPUT do
+    PRODUCT_COUNT +2
+        ELSE START_CASE = 0 do
+            PRINT "ALL DONE!"
+            PRODUCT_COUNT = 0
+            START_CASE = 0
+            end
+
 

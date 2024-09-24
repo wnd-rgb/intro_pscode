@@ -1,4 +1,25 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+//create a map of the store using a 2d array of rows/columns that represents a top-down x,y grid view of every stock bayd
+STORE_MAP = 2D_ARRAY {20, 20}
+//get user input for current location as an x,y coordinate
+PRINT "Please enter current location as two whole integers"
+USER_LOC = GET INPUT(INTEGER,INTEGER)
+    IF USER_LOC != (INTEGER,INTEGER)
+        PRINT "Not a valid location, try again.")
+    ELSEIF CONTINUE
+PRINT "Please enter desired location."
+    DESIRED_LOC = GET INPUT (INTEGER,INTEGER)
+        IF USER_LOC != (INTEGER,INTEGER)
+         PRINT "Not a valid location, try again.")
+    ELSEIF CONTINUE
+WHILE USER_LOC != DESIRED_LOC do
+    IF USER_LOC = DESIRED_LOC
+    PRINT "FOUND YOUR LOCATION"
+    END
+        ELSEIF USER_LOC x axis < DESIRED_LOC x axis do USER_LOC x axis ++ PRINT "MOVE EAST ONE BAY"
+        ELSEIF USER_LOC x axis > DESIRED_LOC x axis do USER_LOC x axis -- PRINT "MOVE WEST ONE BAY"
+        ELSEIF USER_LOC y axis < DESIRED_LOC y axis do USER_LOC y axis ++ PRINT "MOVE NORTH ONE BAY"
+        ELSEIF USER_LOC y axis < DESIRED_LOC y axis do USER_LOC y axis -- PRINT "MOVE SOUTH ONE BAY"
 
